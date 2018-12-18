@@ -25,7 +25,7 @@ module.exports = function(grunt) {
         } else {
           try {
             // transform the code
-            var res = babel.transformFileSync(filepath, { comments: false });
+            var res = babel.transformFileSync(filepath, { comments: false, babelrc: false });
             // Write the destination file.
             grunt.file.write(f.dest, res.code);
             // Print a success message.
