@@ -1,7 +1,7 @@
 {
   "name": "grunt-remove-js-comments",
   "description": "Remove js comments without uglify the code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/kingback/grunt-remove-js-comments",
   "author": {
     "name": "kingback",
